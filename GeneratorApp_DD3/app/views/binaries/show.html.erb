@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @binary.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @binary.description %>
+</p>
+
+<%= link_to 'Edit', edit_binary_path(@binary) %> |
+<%= link_to 'Back', binaries_path %>
